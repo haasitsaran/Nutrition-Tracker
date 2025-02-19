@@ -59,7 +59,7 @@ function Login() {
     //   alert(response.data.message);
       navigate("/dashboard");
     } catch (error) {
-      console.error("Login Error:", error);x
+      console.error("Login Error:", error);
       alert("Invalid credentials");
     }
   };
